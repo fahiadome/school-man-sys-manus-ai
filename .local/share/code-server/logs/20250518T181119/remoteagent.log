@@ -13561,3 +13561,5 @@
 2025-05-22 10:45:22.187 [error] Error: read ETIMEDOUT
     at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
 2025-05-22 10:45:22.188 [info] [10.216.179.1][da8c60ae][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-05-22 10:50:03.024 [info] [10.118.8.1][58f6ed20][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-05-22 10:50:03.395 [info] [10.118.8.1][465d9de5][ExtensionHostConnection] <139805> Extension Host Process exited with code: 0, signal: null.

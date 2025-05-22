@@ -413,3 +413,5 @@
 	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
 	at ChildProcess.emit (node:events:536:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:51:02.960 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-05-22 06:51:09.757 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'

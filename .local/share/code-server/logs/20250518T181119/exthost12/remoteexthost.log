@@ -810,3 +810,64 @@
 	at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
 2025-05-22 06:30:33.885 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10008
 2025-05-22 06:33:34.298 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2025-05-22 06:50:03.044 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-05-22 06:50:03.053 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/-553aabd6-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-05-22 06:50:03.108 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at al (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:7:1218)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:117068
+	at Array.forEach (<anonymous>)
+	at f5.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:117008)
+	at TJ.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:123:10082)
+	at v2.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:124:1434)
+	at hs (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:225:5703)
+	at mx.a (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:225:2614)
+	at mx.h (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:75572)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) 
+2025-05-22 06:50:03.108 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at al (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:7:1218)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:117068
+	at Array.forEach (<anonymous>)
+	at f5.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:117008)
+	at TJ.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:123:10082)
+	at v2.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:124:1434)
+	at hs (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:225:5703)
+	at mx.a (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:225:2614)
+	at mx.h (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:75572)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) 
+2025-05-22 06:50:03.108 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at al (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:7:1218)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:117068
+	at Array.forEach (<anonymous>)
+	at f5.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:117008)
+	at TJ.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:123:10082)
+	at v2.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:124:1434)
+	at hs (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:225:5703)
+	at mx.a (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:225:2614)
+	at mx.h (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:75572)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) 
+2025-05-22 06:50:03.109 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at al (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:7:1218)
+	at file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:117068
+	at Array.forEach (<anonymous>)
+	at f5.dispose (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:117008)
+	at TJ.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:123:10082)
+	at v2.terminate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:124:1434)
+	at hs (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:225:5703)
+	at mx.a (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:225:2614)
+	at mx.h (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:75572)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) 
+2025-05-22 06:50:03.321 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at new KN (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:115617)
+	at f5.U (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:120227)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:117721)
+	at Ib.resolveProxy (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:70063)
+	at Object.resolveProxy (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:172:18444)
+	at useProxySettings (/usr/lib/code-server/lib/vscode/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+	at /usr/lib/code-server/lib/vscode/node_modules/@vscode/proxy-agent/out/index.js:119:13
+	at /usr/lib/code-server/lib/vscode/node_modules/@vscode/proxy-agent/out/index.js:707:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2025-05-22 06:50:03.360 [info] Extension host with pid 139805 exiting with code 0
