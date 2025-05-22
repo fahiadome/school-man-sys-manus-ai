@@ -319,3 +319,77 @@ warning: There are too many unreachable loose objects; run 'git prune' to remove
 2025-05-22 06:52:51.905 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
 2025-05-22 06:52:51.912 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
 2025-05-22 06:52:52.053 [info] > git status -z -uall [146ms]
+2025-05-22 06:53:08.604 [info] > git add -A -- . [201ms]
+2025-05-22 06:53:08.716 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [108ms]
+2025-05-22 06:53:08.716 [info] warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-05-22 06:53:08.721 [info] > git config --get commit.template [1ms]
+2025-05-22 06:53:08.729 [info] > git config --get commit.template [4ms]
+2025-05-22 06:53:08.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-22 06:53:08.736 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:53:08.865 [info] > git status -z -uall [132ms]
+2025-05-22 06:53:08.878 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2025-05-22 06:53:08.883 [info] > git diff --name-status -z --diff-filter=ADMR ab5473c8223ace33795c363364f21c8b2b94cd43...refs/remotes/origin/main [2ms]
+2025-05-22 06:53:10.234 [info] > git push origin main:main [1356ms]
+2025-05-22 06:53:10.234 [info] To https://github.com/fahiadome/school-man-sys-manus-ai.git
+   ab5473c..ba49f85  main -> main
+2025-05-22 06:53:10.244 [info] > git config --get commit.template [5ms]
+2025-05-22 06:53:10.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-22 06:53:10.255 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:53:10.403 [info] > git status -z -uall [153ms]
+2025-05-22 06:53:10.413 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-05-22 06:53:10.424 [info] > git diff --name-status -z --diff-filter=ADMR ba49f8546fa81048d20abb4c74cb1b189ada40c7...refs/remotes/origin/main [7ms]
+2025-05-22 06:53:10.425 [info] > git ls-files --stage -- src/Application/Common/Models/ApiResponse.cs [2ms]
+2025-05-22 06:53:10.428 [info] > git cat-file -s 5f1ad1a7e497da30474bd6a14bda7f11e5cd70ab [1ms]
+2025-05-22 06:53:10.711 [info] > git config --get commit.template [6ms]
+2025-05-22 06:53:10.711 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-22 06:53:10.725 [info] > git show --textconv :src/Application/Common/Models/ApiResponse.cs [9ms]
+2025-05-22 06:53:10.727 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:53:10.860 [info] > git status -z -uall [139ms]
+2025-05-22 06:53:10.874 [info] > git config --get commit.template [5ms]
+2025-05-22 06:53:10.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-22 06:53:10.887 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:53:11.035 [info] > git status -z -uall [154ms]
+2025-05-22 06:53:11.980 [info] > git ls-files --stage -- src/Application/Common/Models/ApiResponse.cs [1ms]
+2025-05-22 06:53:11.986 [info] > git cat-file -s 5f1ad1a7e497da30474bd6a14bda7f11e5cd70ab [2ms]
+2025-05-22 06:53:12.227 [info] > git show --textconv :src/Application/Common/Models/ApiResponse.cs [2ms]
+2025-05-22 06:53:16.294 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [7095ms]
+2025-05-22 06:53:16.385 [info] > git fetch [142ms]
+2025-05-22 06:53:16.386 [info] > git fetch [139ms]
+2025-05-22 06:53:16.395 [info] > git config --get commit.template [5ms]
+2025-05-22 06:53:16.396 [info] > git config --get commit.template [1ms]
+2025-05-22 06:53:16.410 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-05-22 06:53:16.410 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [10ms]
+2025-05-22 06:53:16.429 [info] > git status -z -uall [4ms]
+2025-05-22 06:53:16.430 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-05-22 06:53:16.430 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:53:16.432 [info] > git status -z -uall [17ms]
+2025-05-22 06:53:16.578 [info] > git fetch [168ms]
+2025-05-22 06:53:16.578 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-05-22 06:53:16.588 [info] > git config --get commit.template [5ms]
+2025-05-22 06:53:16.588 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-22 06:53:16.599 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:53:16.741 [info] > git status -z -uall [148ms]
+2025-05-22 06:53:16.939 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:53:17.782 [info] > git config --get commit.template [4ms]
+2025-05-22 06:53:17.788 [info] > git config --get commit.template [7ms]
+2025-05-22 06:53:17.788 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [3ms]
+2025-05-22 06:53:17.794 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-05-22 06:53:17.802 [info] > git status -z -uall [5ms]
+2025-05-22 06:53:17.803 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-05-22 06:53:17.803 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:53:17.807 [info] > git status -z -uall [16ms]
+2025-05-22 06:53:18.273 [info] > git ls-files --stage -- src/Application/Common/Models/ApiResponse.cs [1ms]
+2025-05-22 06:53:18.278 [info] > git cat-file -s 5f1ad1a7e497da30474bd6a14bda7f11e5cd70ab [1ms]
+2025-05-22 06:53:18.314 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:53:18.514 [info] > git show --textconv :src/Application/Common/Models/ApiResponse.cs [2ms]
+2025-05-22 06:53:20.591 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [17ms]
