@@ -13553,3 +13553,4 @@
 2025-05-22 10:28:31.633 [error] Error: read ETIMEDOUT
     at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
 2025-05-22 10:28:31.633 [info] [10.118.8.1][58f6ed20][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-05-22 10:33:15.370 [info] [10.228.100.1][a391b492][ExtensionHostConnection] <134960> Extension Host Process exited with code: 0, signal: null.

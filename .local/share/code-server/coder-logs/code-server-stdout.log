@@ -113,3 +113,4 @@
 [10:28:18] [10.118.155.1][0734b435][ExtensionHostConnection] New connection established.
 [10:28:18] [10.118.155.1][0734b435][ExtensionHostConnection] <154442> Launched Extension Host Process.
 [10:28:31] [10.118.8.1][58f6ed20][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[10:33:15] [10.228.100.1][a391b492][ExtensionHostConnection] <134960> Extension Host Process exited with code: 0, signal: null.
