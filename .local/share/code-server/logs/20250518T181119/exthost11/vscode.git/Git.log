@@ -1,0 +1,169 @@
+2025-05-22 05:40:05.100 [info] [main] Log level: Info
+2025-05-22 05:40:05.100 [info] [main] Validating found git in: "git"
+2025-05-22 05:40:05.101 [info] [main] Using git "2.34.1" from "git"
+2025-05-22 05:40:05.101 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [0ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 05:40:05.101 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-05-22 05:40:05.101 [info] [Model][openRepository] Opened repository (path): /home/ubuntu/.nvm
+2025-05-22 05:40:05.101 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu/.nvm
+2025-05-22 05:40:05.101 [info] > git config --get commit.template [4ms]
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [5ms]
+2025-05-22 05:40:05.101 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [12ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git status -z -uall [20ms]
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git config --get commit.template [1ms]
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [4ms]
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [7ms]
+2025-05-22 05:40:05.101 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-22 05:40:05.101 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-05-22 05:40:05.101 [info] [Model][openRepository] Opened repository (path): /home/ubuntu/school-system
+2025-05-22 05:40:05.101 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu/school-system
+2025-05-22 05:40:05.101 [info] > git status -z -uall [19ms]
+2025-05-22 05:40:05.101 [info] > git config --get commit.template [3ms]
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 05:40:05.101 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-05-22 05:40:05.101 [warning] [Git][getBranch] No such branch: master
+2025-05-22 05:40:05.101 [info] > git status -z -uall [4ms]
+2025-05-22 05:40:05.101 [info] > git rev-parse --show-toplevel [10ms]
+2025-05-22 05:40:05.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.101 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-22 05:40:05.101 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-05-22 05:40:05.101 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-05-22 05:40:05.101 [warning] [Git][getBranch] No such branch: master
+2025-05-22 05:40:05.101 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-05-22 05:40:05.101 [info] > git config --get commit.template [2ms]
+2025-05-22 05:40:05.101 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 05:40:05.101 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 05:40:05.101 [warning] [Git][getBranch] No such branch: master
+2025-05-22 05:40:05.101 [info] > git status -z -uall [4ms]
+2025-05-22 05:40:05.101 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 05:40:05.468 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 05:40:05.524 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 05:40:05.524 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:05.695 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [37ms]
+2025-05-22 05:40:05.907 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 05:40:05.907 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:40:06.825 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-22 05:40:24.210 [info] > git add -A -- . [58ms]
+2025-05-22 05:40:24.223 [info] > git -c user.useConfigOnly=true commit --quiet [9ms]
+2025-05-22 05:40:24.223 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-05-22 05:40:24.228 [info] > git config --get-all user.name [1ms]
+2025-05-22 05:40:24.233 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 05:40:24.233 [info] > git config --get commit.template [3ms]
+2025-05-22 05:40:24.234 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 05:40:24.234 [warning] [Git][getBranch] No such branch: master
+2025-05-22 05:40:24.239 [info] > git status -z -uall [3ms]
+2025-05-22 05:40:24.240 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 05:40:25.558 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 05:40:25.558 [info] > git config --get commit.template [3ms]
+2025-05-22 05:40:25.559 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 05:40:25.559 [warning] [Git][getBranch] No such branch: master
+2025-05-22 05:40:25.564 [info] > git status -z -uall [2ms]
+2025-05-22 05:40:25.565 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 05:40:44.362 [info] > git -c user.useConfigOnly=true commit --quiet [2ms]
+2025-05-22 05:40:44.362 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-05-22 05:40:44.365 [info] > git config --get-all user.name [1ms]
+2025-05-22 05:40:44.370 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 05:40:44.370 [info] > git config --get commit.template [2ms]
+2025-05-22 05:40:44.371 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 05:40:44.371 [warning] [Git][getBranch] No such branch: master
+2025-05-22 05:40:44.376 [info] > git status -z -uall [3ms]
+2025-05-22 05:40:44.377 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 05:42:15.183 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 05:42:15.183 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:43:31.370 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 05:43:31.371 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-22 05:43:36.176 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [3ms]
+2025-05-22 05:43:36.176 [info] fatal: bad revision 'refs/heads/master'
+2025-05-22 05:43:36.176 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2025-05-22 05:43:36.573 [info] > git show --textconv :.git/COMMIT_EDITMSG [3ms]
+2025-05-22 05:43:36.576 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [3ms]
+2025-05-22 05:43:36.579 [info] > git hash-object -t tree /dev/null [3ms]
+2025-05-22 05:43:36.579 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/school-system/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fschool-system%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-05-22 05:43:36.581 [info] > git hash-object -t tree /dev/null [3ms]
+2025-05-22 05:43:36.581 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/school-system/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fschool-system%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-05-22 05:43:36.812 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-22 05:48:05.843 [info] > git rev-parse --show-toplevel [7ms]
+2025-05-22 05:48:05.853 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-05-22 05:48:05.864 [info] [Model][openRepository] Opened repository (path): /home/ubuntu
+2025-05-22 05:48:05.864 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu
+2025-05-22 05:48:05.871 [info] > git config --get commit.template [2ms]
+2025-05-22 05:48:05.876 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 05:48:05.881 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-05-22 05:48:05.882 [warning] [Git][getBranch] No such branch: master
+2025-05-22 05:48:05.891 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-22 05:48:06.090 [info] > git status -z -uall [205ms] (cancelled)
+2025-05-22 05:48:06.090 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-05-22 05:48:06.090 [warning] [Git][getBranch] No such branch: master
+2025-05-22 05:48:06.091 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-05-22 05:48:06.092 [info] > git config --get commit.template [1ms]
+2025-05-22 05:48:06.092 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 05:48:07.421 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1325ms]
+2025-05-22 05:48:07.421 [warning] [Git][getBranch] No such branch: master
+2025-05-22 05:48:07.449 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-05-22 05:48:07.604 [info] > git status -z -uall [171ms] (cancelled)
+2025-05-22 05:48:08.970 [info] > git check-ignore -v -z --stdin [17ms]
+2025-05-22 05:51:10.944 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 05:51:10.948 [info] > git config --get commit.template [4ms]
+2025-05-22 05:51:10.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 05:51:10.948 [warning] [Git][getBranch] No such branch: master
+2025-05-22 05:51:10.956 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 05:51:11.127 [info] > git status -z -uall [176ms] (cancelled)

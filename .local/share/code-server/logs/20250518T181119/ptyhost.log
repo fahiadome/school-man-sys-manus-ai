@@ -1,0 +1,32 @@
+2025-05-18 18:55:06.590 [info] Expanding terminal instance, old id 13ec09d4-1 -> new id undefined
+2025-05-18 18:55:13.036 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2025-05-18 18:55:13.036 [info] Persistent process reconnection "1"
+2025-05-18 18:55:13.273 [info] Persistent process "1": Replaying 53 chars and 1 size events
+2025-05-22 09:39:59.797 [info] Expanding terminal instance, old id -553aabd6-2 -> new id undefined
+2025-05-22 09:40:05.653 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2025-05-22 09:40:05.653 [info] Persistent process reconnection "2"
+2025-05-22 09:40:06.150 [info] Persistent process "2": Replaying 53 chars and 1 size events
+2025-05-22 09:55:18.042 [info] Expanding terminal instance, old id -553aabd6-2 -> new id undefined
+2025-05-22 09:55:18.043 [info] Expanding terminal instance, old id -553aabd6-3 -> new id undefined
+2025-05-22 09:55:24.681 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2025-05-22 09:55:24.681 [info] Persistent process reconnection "2"
+2025-05-22 09:55:24.888 [warning] Persistent process "3": Process had no disconnect runners but was an orphan
+2025-05-22 09:55:24.888 [info] Persistent process reconnection "3"
+2025-05-22 09:55:24.948 [info] Persistent process "2": Replaying 53 chars and 1 size events
+2025-05-22 09:55:25.169 [info] Persistent process "3": Replaying 3197 chars and 1 size events
+2025-05-22 10:12:33.922 [info] Expanding terminal instance, old id -553aabd6-2 -> new id undefined
+2025-05-22 10:12:33.922 [info] Expanding terminal instance, old id -553aabd6-3 -> new id undefined
+2025-05-22 10:12:41.909 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2025-05-22 10:12:41.910 [warning] Persistent process "3": Process had no disconnect runners but was an orphan
+2025-05-22 10:12:41.910 [info] Persistent process reconnection "2"
+2025-05-22 10:12:41.910 [info] Persistent process reconnection "3"
+2025-05-22 10:12:42.247 [info] Persistent process "2": Replaying 53 chars and 1 size events
+2025-05-22 10:12:42.256 [info] Persistent process "3": Replaying 4511 chars and 1 size events
+2025-05-22 10:28:20.752 [info] Expanding terminal instance, old id -553aabd6-2 -> new id undefined
+2025-05-22 10:28:20.752 [info] Expanding terminal instance, old id -553aabd6-3 -> new id undefined
+2025-05-22 10:28:24.131 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2025-05-22 10:28:24.131 [info] Persistent process reconnection "2"
+2025-05-22 10:28:24.131 [warning] Persistent process "3": Process had no disconnect runners but was an orphan
+2025-05-22 10:28:24.131 [info] Persistent process reconnection "3"
+2025-05-22 10:28:24.405 [info] Persistent process "2": Replaying 53 chars and 1 size events
+2025-05-22 10:28:24.432 [info] Persistent process "3": Replaying 7374 chars and 1 size events

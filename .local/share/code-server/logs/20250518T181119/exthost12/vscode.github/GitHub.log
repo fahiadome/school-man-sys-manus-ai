@@ -1,0 +1,3 @@
+2025-05-22 05:55:22.049 [info] Log level: Info
+2025-05-22 05:55:30.056 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-05-22 06:03:30.265 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for fahiadome/school-man-sys-manus-ai: Error: No GitHub authentication session available.

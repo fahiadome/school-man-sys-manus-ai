@@ -1,0 +1,42 @@
+# ID Property Change Implementation
+
+## Tasks
+- [x] Analyze current entity ID implementations
+- [x] Update all entity ID properties to string GUIDs
+  - [x] Update BaseEntity.cs
+  - [x] Update UserTenant.cs
+  - [x] Update UserRole.cs
+  - [x] Update RolePermission.cs
+  - [x] Update TenantSubscription.cs
+  - [x] Update Student.cs
+  - [x] Update Guardian.cs
+  - [x] Update StudentGuardian.cs
+  - [x] Update Term.cs
+  - [x] Update Section.cs
+  - [x] Update Enrollment.cs
+  - [x] Update Attendance.cs
+  - [x] Update Staff.cs
+  - [x] Update TeacherSubject.cs
+  - [x] Update TeacherSection.cs
+  - [x] Update FeeStructure.cs
+  - [x] Update Invoice.cs
+  - [x] Update InvoiceItem.cs
+  - [x] Update Payment.cs
+  - [x] Update remaining Tenant entities
+- [x] Update related configurations and references
+  - [x] Update DbContext configurations
+- [x] Update authentication domain entities and references
+  - [x] Update UserRole.cs in authentication domain
+  - [x] Verify other authentication domain entities
+- [x] Update repository and service interfaces and implementations
+  - [x] Update IGenericRepository.cs
+  - [x] Update GenericRepository.cs
+  - [x] Verify IAuthUserRepository and implementation
+  - [x] Verify IRoleRepository and implementation
+  - [x] Verify IPermissionRepository and implementation
+- [ ] Validate changes across codebase
+  - [ ] Check for any missed references
+  - [ ] Verify navigation properties and relationships
+  - [ ] Review any custom queries or migrations
+- [ ] Document the ID property changes
+- [ ] Report and send updated files to user

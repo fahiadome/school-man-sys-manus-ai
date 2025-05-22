@@ -1,0 +1,5 @@
+2025/05/16-14:19:54.649 29c Creating DB /home/ubuntu/.browser_data_dir/Default/Local Storage/leveldb since it was missing.
+2025/05/16-14:19:54.652 29c Reusing MANIFEST /home/ubuntu/.browser_data_dir/Default/Local Storage/leveldb/MANIFEST-000001
+2025/05/18-16:37:35.016 29c Level-0 table #5: started
+2025/05/18-16:37:35.026 29c Level-0 table #5: 531062 bytes OK
+2025/05/18-16:37:35.027 29c Delete type=0 #3

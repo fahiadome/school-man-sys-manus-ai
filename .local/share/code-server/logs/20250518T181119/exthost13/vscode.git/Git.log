@@ -1,0 +1,456 @@
+2025-05-22 06:12:42.323 [info] [main] Log level: Info
+2025-05-22 06:12:42.323 [info] [main] Validating found git in: "git"
+2025-05-22 06:12:42.323 [info] [main] Using git "2.34.1" from "git"
+2025-05-22 06:12:42.323 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-05-22 06:12:42.323 [info] [Model][openRepository] Opened repository (path): /home/ubuntu
+2025-05-22 06:12:42.323 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu
+2025-05-22 06:12:42.323 [info] > git config --get commit.template [17ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [15ms]
+2025-05-22 06:12:42.323 [info] fatal: this operation must be run in a work tree
+2025-05-22 06:12:42.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [8ms]
+2025-05-22 06:12:42.323 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-05-22 06:12:42.323 [info] [Model][openRepository] Opened repository (path): /home/ubuntu/.nvm
+2025-05-22 06:12:42.323 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu/.nvm
+2025-05-22 06:12:42.323 [info] > git config --get commit.template [2ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [5ms]
+2025-05-22 06:12:42.323 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [3ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [12ms]
+2025-05-22 06:12:42.323 [info] > git status -z -uall [19ms]
+2025-05-22 06:12:42.323 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [56ms]
+2025-05-22 06:12:42.323 [info] > git config --get commit.template [6ms]
+2025-05-22 06:12:42.323 [info] > git fetch [162ms]
+2025-05-22 06:12:42.323 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-05-22 06:12:42.323 [info] > git status -z -uall [135ms] (cancelled)
+2025-05-22 06:12:42.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-05-22 06:12:42.323 [info] > git config --get commit.template [7ms]
+2025-05-22 06:12:42.323 [info] > git config --get commit.template [9ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [11ms]
+2025-05-22 06:12:42.323 [info] > git config --get --local branch.main.vscode-merge-base [4ms]
+2025-05-22 06:12:42.323 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-22 06:12:42.323 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [152ms]
+2025-05-22 06:12:42.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-05-22 06:12:42.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [152ms]
+2025-05-22 06:12:42.323 [info] > git fetch [269ms]
+2025-05-22 06:12:42.323 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms] (cancelled)
+2025-05-22 06:12:42.323 [info] > git reflog main --grep-reflog=branch: Created from *. [156ms]
+2025-05-22 06:12:42.323 [info] > git status -z -uall [18ms] (cancelled)
+2025-05-22 06:12:42.323 [info] > git config --get commit.template [3ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [7ms]
+2025-05-22 06:12:42.323 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [11ms]
+2025-05-22 06:12:42.323 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-05-22 06:12:42.323 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [16ms]
+2025-05-22 06:12:42.323 [info] > git merge-base refs/heads/main refs/remotes/origin/main [20ms]
+2025-05-22 06:12:42.323 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [21ms]
+2025-05-22 06:12:42.323 [info] > git merge-base refs/heads/main refs/remotes/origin/main [30ms]
+2025-05-22 06:12:42.323 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [37ms]
+2025-05-22 06:12:42.323 [info] > git status -z -uall [51ms]
+2025-05-22 06:12:42.323 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [48ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --show-toplevel [69ms]
+2025-05-22 06:12:42.323 [info] > git diff --name-status -z --diff-filter=ADMR 13de74dabf408ea86adc0f92f2a436087fe4e057...refs/remotes/origin/main [72ms]
+2025-05-22 06:12:42.323 [info] > git diff --name-status -z --diff-filter=ADMR 13de74dabf408ea86adc0f92f2a436087fe4e057...refs/remotes/origin/main [57ms]
+2025-05-22 06:12:42.323 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2025-05-22 06:12:42.323 [info] [Model][openRepository] Opened repository (path): /home/ubuntu/school-system
+2025-05-22 06:12:42.323 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu/school-system
+2025-05-22 06:12:42.335 [info] > git status -z -uall [134ms] (cancelled)
+2025-05-22 06:12:42.336 [info] > git rev-parse --show-toplevel [24ms]
+2025-05-22 06:12:42.336 [info] > git config --get commit.template [26ms]
+2025-05-22 06:12:42.336 [info] > git fetch [30ms]
+2025-05-22 06:12:43.858 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:12:43.868 [info] > git config --get commit.template [1403ms]
+2025-05-22 06:12:43.868 [info] > git rev-parse --show-toplevel [1407ms]
+2025-05-22 06:12:43.870 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-22 06:12:43.909 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [52ms]
+2025-05-22 06:12:43.910 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:12:43.933 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:12:43.938 [info] > git check-ignore -v -z --stdin [49ms]
+2025-05-22 06:12:43.939 [info] > git check-ignore -v -z --stdin [42ms]
+2025-05-22 06:12:43.940 [info] > git check-ignore -v -z --stdin [37ms]
+2025-05-22 06:12:43.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2025-05-22 06:12:43.940 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:12:43.940 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-05-22 06:12:43.941 [info] > git rev-parse --show-toplevel [33ms]
+2025-05-22 06:12:43.941 [info] > git config --get commit.template [4ms]
+2025-05-22 06:12:43.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-05-22 06:12:43.942 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:12:43.949 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:12:43.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-22 06:12:43.952 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:12:43.962 [info] > git status -z -uall [5ms]
+2025-05-22 06:12:43.967 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-05-22 06:12:44.466 [info] > git check-ignore -v -z --stdin [10ms]
+2025-05-22 06:12:44.466 [info] > git check-ignore -v -z --stdin [6ms]
+2025-05-22 06:12:44.467 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-22 06:12:45.244 [info] > git check-ignore -v -z --stdin [6ms]
+2025-05-22 06:12:45.245 [info] > git check-ignore -v -z --stdin [4ms]
+2025-05-22 06:12:45.245 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-22 06:12:53.629 [info] > git show --textconv :.git/COMMIT_EDITMSG [5ms]
+2025-05-22 06:12:53.633 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [5ms]
+2025-05-22 06:12:53.636 [info] > git hash-object -t tree /dev/null [4ms]
+2025-05-22 06:12:53.637 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/school-system/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fschool-system%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-05-22 06:12:53.639 [info] > git hash-object -t tree /dev/null [3ms]
+2025-05-22 06:12:53.639 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/school-system/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fschool-system%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-05-22 06:13:10.155 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [19ms]
+2025-05-22 06:13:10.666 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-22 06:13:34.954 [info] > git log --oneline --cherry main...main@{upstream} -- [2ms]
+2025-05-22 06:13:35.114 [info] > git pull --tags origin main [157ms]
+2025-05-22 06:13:35.114 [info] From https://github.com/fahiadome/school-man-sys-manus-ai
+ * branch            main       -> FETCH_HEAD
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-05-22 06:13:35.123 [info] > git config --get commit.template [4ms]
+2025-05-22 06:13:35.125 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-05-22 06:13:35.132 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:13:35.306 [info] > git status -z -uall [178ms] (cancelled)
+2025-05-22 06:13:46.590 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-22 06:13:47.458 [info] > git check-ignore -v -z --stdin [0ms]
+2025-05-22 06:13:49.120 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-22 06:13:52.485 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-22 06:13:54.101 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-22 06:13:54.899 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-22 06:13:55.882 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-22 06:15:19.109 [info] > git config --get commit.template [3ms]
+2025-05-22 06:15:19.110 [info] > git config --get commit.template [1ms]
+2025-05-22 06:15:19.113 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:15:19.116 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-22 06:15:19.116 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:15:19.122 [info] > git status -z -uall [3ms]
+2025-05-22 06:15:19.123 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [8ms]
+2025-05-22 06:15:19.129 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-05-22 06:15:19.134 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-05-22 06:15:19.143 [info] > git status -z -uall [17ms]
+2025-05-22 06:15:19.648 [info] > git rev-parse --show-toplevel [0ms]
+2025-05-22 06:15:42.333 [info] > git fetch [119ms]
+2025-05-22 06:15:42.333 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-05-22 06:15:42.341 [info] > git config --get commit.template [3ms]
+2025-05-22 06:15:42.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-22 06:15:42.349 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:15:42.416 [info] > git fetch [114ms]
+2025-05-22 06:15:42.546 [info] > git status -z -uall [201ms] (cancelled)
+2025-05-22 06:15:42.546 [info] > git config --get commit.template [125ms]
+2025-05-22 06:15:42.551 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [1ms]
+2025-05-22 06:15:43.872 [info] > git status -z -uall [1318ms]
+2025-05-22 06:15:43.873 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1315ms]
+2025-05-22 06:15:43.952 [info] > git fetch [3ms]
+2025-05-22 06:15:43.962 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:15:43.963 [info] > git config --get commit.template [6ms]
+2025-05-22 06:15:43.963 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 06:15:43.964 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:15:43.972 [info] > git status -z -uall [4ms]
+2025-05-22 06:15:43.974 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:15:44.380 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:15:44.913 [info] > git config --get commit.template [5ms]
+2025-05-22 06:15:44.914 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [1ms]
+2025-05-22 06:15:44.923 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:15:44.943 [info] > git status -z -uall [25ms]
+2025-05-22 06:15:45.347 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:15:45.347 [info] > git config --get commit.template [4ms]
+2025-05-22 06:15:45.348 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 06:15:45.348 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:15:45.354 [info] > git status -z -uall [3ms]
+2025-05-22 06:15:45.355 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:15:45.451 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:17:32.033 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:17:32.034 [info] > git config --get commit.template [6ms]
+2025-05-22 06:17:32.034 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 06:17:32.034 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:17:32.044 [info] > git status -z -uall [5ms]
+2025-05-22 06:17:32.045 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:17:32.227 [info] > git config --get commit.template [5ms]
+2025-05-22 06:17:32.228 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-22 06:17:32.242 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-22 06:17:33.948 [info] > git status -z -uall [1715ms] (cancelled)
+2025-05-22 06:17:33.948 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1416ms]
+2025-05-22 06:17:33.961 [info] > git diff --name-status -z --diff-filter=ADMR 13de74dabf408ea86adc0f92f2a436087fe4e057...refs/remotes/origin/main [9ms]
+2025-05-22 06:17:33.963 [info] > git config --get commit.template [16ms]
+2025-05-22 06:17:33.977 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [3ms]
+2025-05-22 06:17:34.001 [info] > git status -z -uall [17ms]
+2025-05-22 06:17:34.002 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2025-05-22 06:17:34.510 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:17:36.618 [info] > git check-ignore -v -z --stdin [9ms]
+2025-05-22 06:17:37.014 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2808ms]
+2025-05-22 06:18:51.301 [info] > git fetch [3ms]
+2025-05-22 06:18:51.308 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:18:51.309 [info] > git config --get commit.template [4ms]
+2025-05-22 06:18:51.309 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 06:18:51.309 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:18:51.316 [info] > git status -z -uall [4ms]
+2025-05-22 06:18:51.317 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:18:51.453 [info] > git fetch [158ms]
+2025-05-22 06:18:51.454 [info] > git fetch [162ms]
+2025-05-22 06:18:51.454 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-05-22 06:18:51.463 [info] > git config --get commit.template [3ms]
+2025-05-22 06:18:51.463 [info] > git config --get commit.template [1ms]
+2025-05-22 06:18:51.469 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [3ms]
+2025-05-22 06:18:51.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-05-22 06:18:51.482 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-05-22 06:18:51.484 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:18:51.489 [info] > git status -z -uall [17ms]
+2025-05-22 06:18:53.174 [info] > git status -z -uall [1695ms] (cancelled)
+2025-05-22 06:18:53.193 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-22 06:18:53.194 [info] > git config --get commit.template [2ms]
+2025-05-22 06:18:53.198 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [1ms]
+2025-05-22 06:18:53.210 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-05-22 06:18:53.217 [info] > git status -z -uall [16ms]
+2025-05-22 06:18:53.725 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:18:54.201 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:18:54.206 [info] > git config --get commit.template [5ms]
+2025-05-22 06:18:54.207 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 06:18:54.207 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:18:54.215 [info] > git status -z -uall [5ms]
+2025-05-22 06:18:54.215 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:19:01.487 [info] > git check-ignore -v -z --stdin [62ms]
+2025-05-22 06:19:06.549 [info] > git check-ignore -v -z --stdin [355ms]
+2025-05-22 06:19:11.941 [info] > git add -A -- . [4365ms]
+2025-05-22 06:19:11.941 [info] error: 'school-system/' does not have a commit checked out
+fatal: adding files failed
+2025-05-22 06:19:11.955 [info] > git config --get commit.template [6ms]
+2025-05-22 06:19:11.956 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-22 06:19:11.970 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:19:12.216 [info] > git status -z -uall [254ms] (cancelled)
+2025-05-22 06:20:32.168 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:20:32.169 [info] > git config --get commit.template [5ms]
+2025-05-22 06:20:32.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 06:20:32.170 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:20:32.177 [info] > git status -z -uall [4ms]
+2025-05-22 06:20:32.178 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:20:32.694 [info] > git config --get commit.template [5ms]
+2025-05-22 06:20:32.695 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [2ms]
+2025-05-22 06:20:32.707 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-22 06:20:32.717 [info] > git status -z -uall [19ms]
+2025-05-22 06:20:33.224 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:20:39.313 [info] > git log --oneline --cherry main...main@{upstream} -- [2ms]
+2025-05-22 06:20:39.480 [info] > git pull --tags origin main [163ms]
+2025-05-22 06:20:39.480 [info] From https://github.com/fahiadome/school-man-sys-manus-ai
+ * branch            main       -> FETCH_HEAD
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-05-22 06:20:48.535 [info] > git check-ignore -v -z --stdin [11ms]
+2025-05-22 06:20:49.961 [info] > git check-ignore -v -z --stdin [11ms]
+2025-05-22 06:20:51.294 [info] > git check-ignore -v -z --stdin [13ms]
+2025-05-22 06:20:52.590 [info] > git push origin main:main [13106ms]
+2025-05-22 06:20:52.590 [info] To https://github.com/fahiadome/school-man-sys-manus-ai.git
+   13de74d..276e479  main -> main
+2025-05-22 06:20:52.599 [info] > git config --get commit.template [3ms]
+2025-05-22 06:20:52.600 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-22 06:20:52.608 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:20:52.874 [info] > git status -z -uall [271ms] (cancelled)
+2025-05-22 06:20:52.874 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-05-22 06:20:54.316 [info] > git diff --name-status -z --diff-filter=ADMR 276e479e2b860a2998dba53d1d26c295c1cc1ad4...refs/remotes/origin/main [1426ms]
+2025-05-22 06:20:54.871 [info] > git check-ignore -v -z --stdin [10ms]
+2025-05-22 06:20:56.819 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2065ms]
+2025-05-22 06:21:06.402 [info] > git config --get commit.template [7ms]
+2025-05-22 06:21:06.403 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-22 06:21:06.415 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:21:06.645 [info] > git status -z -uall [236ms] (cancelled)
+2025-05-22 06:21:30.878 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2037ms]
+2025-05-22 06:21:51.332 [info] > git fetch [3ms]
+2025-05-22 06:21:51.341 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:21:51.341 [info] > git config --get commit.template [4ms]
+2025-05-22 06:21:51.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 06:21:51.341 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:21:51.348 [info] > git status -z -uall [4ms]
+2025-05-22 06:21:51.349 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:21:51.616 [info] > git fetch [120ms]
+2025-05-22 06:21:51.625 [info] > git config --get commit.template [4ms]
+2025-05-22 06:21:51.626 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [2ms]
+2025-05-22 06:21:51.635 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-22 06:21:51.646 [info] > git status -z -uall [17ms]
+2025-05-22 06:21:52.152 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:21:52.244 [info] > git add -A -- . [4256ms]
+2025-05-22 06:21:52.244 [info] error: 'school-system/' does not have a commit checked out
+fatal: adding files failed
+2025-05-22 06:21:52.255 [info] > git config --get commit.template [5ms]
+2025-05-22 06:21:52.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-22 06:21:52.264 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:21:52.514 [info] > git status -z -uall [255ms] (cancelled)
+2025-05-22 06:21:53.873 [info] > git fetch [1361ms]
+2025-05-22 06:21:53.873 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-05-22 06:21:53.908 [info] > git config --get commit.template [5ms]
+2025-05-22 06:21:53.908 [info] > git config --get commit.template [11ms]
+2025-05-22 06:21:53.916 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:21:53.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-05-22 06:21:53.920 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:21:53.928 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2025-05-22 06:21:53.928 [info] > git config --get commit.template [21ms]
+2025-05-22 06:21:53.929 [info] > git status -z -uall [5ms]
+2025-05-22 06:21:53.929 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:21:53.932 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [13ms]
+2025-05-22 06:21:53.948 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:21:53.949 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-05-22 06:21:53.961 [info] > git status -z -uall [25ms]
+2025-05-22 06:21:54.198 [info] > git status -z -uall [255ms] (cancelled)
+2025-05-22 06:21:55.597 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:23:32.120 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:23:32.121 [info] > git config --get commit.template [5ms]
+2025-05-22 06:23:32.121 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 06:23:32.121 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:23:32.129 [info] > git status -z -uall [4ms]
+2025-05-22 06:23:32.130 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:23:33.056 [info] > git config --get commit.template [5ms]
+2025-05-22 06:23:33.056 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [1ms]
+2025-05-22 06:23:33.065 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:23:33.077 [info] > git status -z -uall [18ms]
+2025-05-22 06:23:33.585 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:23:50.415 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:23:50.415 [info] > git config --get commit.template [4ms]
+2025-05-22 06:23:50.416 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 06:23:50.416 [warning] [Git][getBranch] No such branch: master
+2025-05-22 06:23:50.421 [info] > git status -z -uall [3ms]
+2025-05-22 06:23:50.422 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:24:00.508 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:24:00.508 [info] > git config --get commit.template [4ms]
+2025-05-22 06:24:00.509 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-22 06:24:00.515 [info] > git status -z -uall [4ms]
+2025-05-22 06:24:00.516 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:24:00.523 [info] > git blame --root --incremental ac45ce994ecb9418b33ecaaae2d598a904da13fd -- .git/COMMIT_EDITMSG [1ms]
+2025-05-22 06:24:00.523 [info] fatal: no such path .git/COMMIT_EDITMSG in ac45ce994ecb9418b33ecaaae2d598a904da13fd
+2025-05-22 06:24:01.428 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:24:01.429 [info] > git config --get commit.template [4ms]
+2025-05-22 06:24:01.429 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-22 06:24:01.434 [info] > git status -z -uall [3ms]
+2025-05-22 06:24:01.436 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:24:31.786 [info] > git config --get commit.template [4ms]
+2025-05-22 06:24:31.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-22 06:24:31.793 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:24:32.052 [info] > git status -z -uall [263ms] (cancelled)
+2025-05-22 06:24:58.302 [info] > git fetch [12ms]
+2025-05-22 06:24:58.312 [info] > git config --get commit.template [1ms]
+2025-05-22 06:24:58.330 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:24:58.332 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-22 06:24:58.352 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-05-22 06:24:58.362 [info] > git status -z -uall [25ms]
+2025-05-22 06:24:58.426 [info] > git fetch [131ms]
+2025-05-22 06:24:58.435 [info] > git config --get commit.template [4ms]
+2025-05-22 06:24:58.436 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [2ms]
+2025-05-22 06:24:58.443 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:24:58.456 [info] > git status -z -uall [17ms]
+2025-05-22 06:24:58.459 [info] > git fetch [162ms]
+2025-05-22 06:24:58.459 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-05-22 06:24:58.469 [info] > git config --get commit.template [4ms]
+2025-05-22 06:24:58.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-22 06:24:58.478 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:24:58.744 [info] > git status -z -uall [271ms] (cancelled)
+2025-05-22 06:25:00.175 [info] > git config --get commit.template [15ms]
+2025-05-22 06:25:00.175 [info] > git rev-parse --show-toplevel [21ms]
+2025-05-22 06:25:00.186 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:25:00.196 [info] > git config --get commit.template [23ms]
+2025-05-22 06:25:00.198 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [8ms]
+2025-05-22 06:25:00.210 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2025-05-22 06:25:00.218 [info] > git status -z -uall [5ms]
+2025-05-22 06:25:00.219 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-05-22 06:25:00.219 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:25:00.224 [info] > git status -z -uall [20ms]
+2025-05-22 06:25:00.732 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:26:35.836 [info] > git config --get commit.template [7ms]
+2025-05-22 06:26:35.842 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:26:35.850 [info] > git config --get commit.template [15ms]
+2025-05-22 06:26:35.850 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-05-22 06:26:35.863 [info] > git status -z -uall [8ms]
+2025-05-22 06:26:35.864 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [15ms]
+2025-05-22 06:26:35.877 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-05-22 06:26:35.880 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-22 06:26:35.893 [info] > git status -z -uall [23ms]
+2025-05-22 06:26:36.401 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:28:58.703 [info] > git fetch [3ms]
+2025-05-22 06:28:58.710 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:28:58.710 [info] > git config --get commit.template [3ms]
+2025-05-22 06:28:58.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-05-22 06:28:58.717 [info] > git status -z -uall [3ms]
+2025-05-22 06:28:58.718 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:28:58.891 [info] > git fetch [99ms]
+2025-05-22 06:28:58.898 [info] > git config --get commit.template [3ms]
+2025-05-22 06:28:58.899 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [1ms]
+2025-05-22 06:28:58.906 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:28:58.918 [info] > git status -z -uall [16ms]
+2025-05-22 06:28:59.223 [info] > git fetch [145ms]
+2025-05-22 06:28:59.223 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-05-22 06:28:59.231 [info] > git config --get commit.template [4ms]
+2025-05-22 06:28:59.232 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-22 06:28:59.240 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:28:59.506 [info] > git status -z -uall [271ms] (cancelled)
+2025-05-22 06:29:00.889 [info] > git rev-parse --show-toplevel [1370ms]
+2025-05-22 06:31:58.729 [info] > git fetch [3ms]
+2025-05-22 06:31:58.740 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-22 06:31:58.740 [info] > git config --get commit.template [5ms]
+2025-05-22 06:31:58.741 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-22 06:31:58.751 [info] > git status -z -uall [6ms]
+2025-05-22 06:31:58.752 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:31:59.029 [info] > git fetch [104ms]
+2025-05-22 06:31:59.042 [info] > git config --get commit.template [6ms]
+2025-05-22 06:31:59.043 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [2ms]
+2025-05-22 06:31:59.053 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-22 06:31:59.063 [info] > git status -z -uall [16ms]
+2025-05-22 06:31:59.570 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:31:59.668 [info] > git fetch [158ms]
+2025-05-22 06:31:59.668 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-05-22 06:31:59.678 [info] > git config --get commit.template [4ms]
+2025-05-22 06:31:59.678 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-22 06:31:59.687 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:32:01.330 [info] > git status -z -uall [1648ms] (cancelled)
+2025-05-22 06:32:01.330 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1337ms]
+2025-05-22 06:32:01.353 [info] > git diff --name-status -z --diff-filter=ADMR 084bd10c24b497a652b5759f162bc70894b5e9c7...refs/remotes/origin/main [9ms]
