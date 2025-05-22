@@ -1,0 +1,415 @@
+2025-05-22 06:45:10.384 [info] Extension host with pid 170953 started
+2025-05-22 06:45:10.384 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.local/share/code-server/User/workspaceStorage/-553aabd6/vscode.lock'
+2025-05-22 06:45:10.384 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/-553aabd6/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-05-22 06:45:10.388 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/-553aabd6/vscode.lock': The lock does not look stale, elapsed: 475 ms, giving up.
+2025-05-22 06:45:10.389 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.local/share/code-server/User/workspaceStorage/-553aabd6-1/vscode.lock'
+2025-05-22 06:45:10.389 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/-553aabd6-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-05-22 06:45:10.396 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/-553aabd6-1/vscode.lock': The lock does not look stale, elapsed: 84 ms, giving up.
+2025-05-22 06:45:10.397 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/-553aabd6-2/vscode.lock': Lock acquired.
+2025-05-22 06:45:10.942 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
+2025-05-22 06:45:10.943 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-22 06:45:10.943 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-22 06:45:10.943 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-22 06:45:10.944 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-22 06:45:11.469 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
+2025-05-22 06:45:11.968 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-22 06:45:12.498 [info] Eager extensions activated
+2025-05-22 06:45:12.499 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 06:45:12.500 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-22 06:45:12.938 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:13.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.132 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.134 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.135 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.135 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.136 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.136 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.137 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.137 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.138 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.139 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.139 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.140 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.140 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.141 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.141 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.142 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.142 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.143 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.144 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.144 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.145 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.146 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.146 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.146 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.147 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.147 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.148 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.148 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.148 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-22 06:45:14.149 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:601154)
+	at ChildProcess.emit (node:events:536:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)

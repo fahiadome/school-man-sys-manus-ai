@@ -1,0 +1,108 @@
+2025-05-22 06:45:12.124 [info] [main] Log level: Info
+2025-05-22 06:45:12.124 [info] [main] Validating found git in: "git"
+2025-05-22 06:45:12.124 [info] [main] Using git "2.34.1" from "git"
+2025-05-22 06:45:12.124 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-22 06:45:12.124 [info] > git rev-parse --show-toplevel [190ms]
+2025-05-22 06:45:12.124 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-05-22 06:45:12.124 [info] [Model][openRepository] Opened repository (path): /home/ubuntu
+2025-05-22 06:45:12.124 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu
+2025-05-22 06:45:12.124 [info] > git config --get commit.template [11ms]
+2025-05-22 06:45:12.124 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-22 06:45:12.124 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [27ms]
+2025-05-22 06:45:12.124 [info] > git rev-parse --show-toplevel [8ms]
+2025-05-22 06:45:12.141 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:45:12.151 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-22 06:45:12.156 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-22 06:45:12.160 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:45:12.164 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-22 06:45:12.168 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-22 06:45:12.172 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-05-22 06:45:12.180 [info] [Model][openRepository] Opened repository (path): /home/ubuntu/.nvm
+2025-05-22 06:45:12.180 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu/.nvm
+2025-05-22 06:45:12.193 [info] > git config --get commit.template [3ms]
+2025-05-22 06:45:12.198 [info] > git rev-parse --show-toplevel [5ms]
+2025-05-22 06:45:12.202 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [5ms]
+2025-05-22 06:45:12.230 [info] > git rev-parse --show-toplevel [28ms]
+2025-05-22 06:45:12.231 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:45:12.241 [info] > git status -z -uall [29ms]
+2025-05-22 06:45:12.280 [info] > git fetch [241ms]
+2025-05-22 06:45:12.280 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-05-22 06:45:12.322 [info] > git status -z -uall [247ms] (cancelled)
+2025-05-22 06:45:12.322 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2025-05-22 06:45:12.356 [info] > git rev-parse --show-toplevel [116ms]
+2025-05-22 06:45:12.363 [info] > git config --get commit.template [43ms]
+2025-05-22 06:45:12.363 [info] > git fetch [184ms]
+2025-05-22 06:45:12.369 [info] > git rev-parse --show-toplevel [8ms]
+2025-05-22 06:45:12.369 [info] > git config --get --local branch.main.vscode-merge-base [14ms]
+2025-05-22 06:45:12.369 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-22 06:45:12.393 [info] > git config --get commit.template [25ms]
+2025-05-22 06:45:12.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-05-22 06:45:12.394 [info] > git reflog main --grep-reflog=branch: Created from *. [14ms]
+2025-05-22 06:45:12.402 [info] > git rev-parse --show-toplevel [10ms]
+2025-05-22 06:45:12.406 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2025-05-22 06:45:12.406 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-05-22 06:45:12.406 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-05-22 06:45:12.413 [info] > git rev-parse --show-toplevel [7ms]
+2025-05-22 06:45:12.413 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [12ms]
+2025-05-22 06:45:12.432 [info] > git merge-base refs/heads/main refs/remotes/origin/main [22ms]
+2025-05-22 06:45:12.439 [info] > git status -z -uall [22ms]
+2025-05-22 06:45:12.439 [info] > git rev-parse --show-toplevel [7ms]
+2025-05-22 06:45:12.439 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-05-22 06:45:12.440 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2025-05-22 06:45:12.457 [info] > git diff --name-status -z --diff-filter=ADMR d018d37a17eb9cf0218ed0570902c0220ab567f3...refs/remotes/origin/main [21ms]
+2025-05-22 06:45:12.539 [info] > git status -z -uall [114ms] (cancelled)
+2025-05-22 06:45:12.539 [info] > git rev-parse --show-toplevel [82ms]
+2025-05-22 06:45:12.544 [info] > git config --get commit.template [6ms]
+2025-05-22 06:45:12.545 [info] > git config --get commit.template [10ms]
+2025-05-22 06:45:12.547 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-05-22 06:45:12.556 [info] [Model][openRepository] Opened repository (path): /home/ubuntu/school-system
+2025-05-22 06:45:12.556 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu/school-system
+2025-05-22 06:45:12.577 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-22 06:45:12.577 [info] > git config --get commit.template [7ms]
+2025-05-22 06:45:12.577 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-05-22 06:45:12.578 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [17ms]
+2025-05-22 06:45:12.607 [info] > git status -z -uall [23ms]
+2025-05-22 06:45:12.607 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [21ms]
+2025-05-22 06:45:12.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2025-05-22 06:45:12.613 [info] > git rev-parse --show-toplevel [23ms]
+2025-05-22 06:45:12.625 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-22 06:45:12.642 [info] > git show --textconv HEAD: [12ms]
+2025-05-22 06:45:12.643 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-22 06:45:12.644 [info] > git ls-tree -l HEAD --  [10ms]
+2025-05-22 06:45:12.644 [info] fatal: empty string is not a valid pathspec. please use . instead if you meant to match all paths
+2025-05-22 06:45:12.667 [info] > git status -z -uall [16ms]
+2025-05-22 06:45:12.668 [info] > git hash-object -t tree /dev/null [21ms]
+2025-05-22 06:45:12.668 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/school-system?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fschool-system%22%2C%22ref%22%3A%22~%22%7D
+2025-05-22 06:45:12.671 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-05-22 06:45:12.686 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-05-22 06:45:12.690 [info] > git config --get commit.template [5ms]
+2025-05-22 06:45:12.694 [info] > git config --get --local branch.master.vscode-merge-base [5ms]
+2025-05-22 06:45:12.694 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-22 06:45:12.699 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-05-22 06:45:12.699 [info] > git reflog master --grep-reflog=branch: Created from *. [2ms]
+2025-05-22 06:45:12.708 [info] > git status -z -uall [3ms]
+2025-05-22 06:45:12.708 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2025-05-22 06:45:12.708 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-05-22 06:45:12.708 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-05-22 06:45:12.712 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-05-22 06:45:12.717 [info] > git merge-base refs/heads/master refs/remotes/origin/master [6ms]
+2025-05-22 06:45:12.720 [info] > git merge-base refs/heads/master refs/remotes/origin/master [4ms]
+2025-05-22 06:45:12.725 [info] > git diff --name-status -z --diff-filter=ADMR ac45ce994ecb9418b33ecaaae2d598a904da13fd...refs/remotes/origin/master [6ms]
+2025-05-22 06:45:12.726 [info] > git fetch [170ms]
+2025-05-22 06:45:12.731 [info] > git diff --name-status -z --diff-filter=ADMR ac45ce994ecb9418b33ecaaae2d598a904da13fd...refs/remotes/origin/master [7ms]
+2025-05-22 06:45:12.732 [info] > git config --get commit.template [2ms]
+2025-05-22 06:45:12.751 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-22 06:45:12.764 [info] > git status -z -uall [8ms]
+2025-05-22 06:45:12.772 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-05-22 06:45:12.805 [info] > git status -z -uall [168ms]
+2025-05-22 06:45:13.127 [info] > git check-ignore -v -z --stdin [9ms]
+2025-05-22 06:45:13.127 [info] > git check-ignore -v -z --stdin [7ms]
+2025-05-22 06:45:13.128 [info] > git check-ignore -v -z --stdin [15ms]
+2025-05-22 06:45:13.131 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-22 06:45:26.598 [info] > git check-ignore -v -z --stdin [24ms]
